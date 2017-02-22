@@ -5,7 +5,7 @@ node {
     env.AWS_DEFAULT_REGION = 'ap-southeast-1'
 	
 	def applicationName = 'robot-app' //change me
-	def deploymentGroupName = 'santafe' // change me
+	def deploymentGroupName = 'robot-app' // change me
 	def s3BucketName = 'deployment-cdc'
 	
 	//Cleanup workspace
